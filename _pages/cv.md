@@ -9,10 +9,10 @@ redirect_from:
 
 {% include base_path %}
 
-[Full CV](https://yichao-yuan-99.github.io/files/YichaoYuan-CV.pdf)
+[Full CV](https://yichao-yuan-99.github.io/files/YichaoYuan-CV-09-11-2024.pdf)
 
 Education
 ======
 * B.S. in Electrical and Computer Engineering, Shanghai Jiao Tong University, 2017 - 2021
 * M.S. in Electrical and Computer Engineering, University of Michigan, 2021 - 2023
-* Ph.D pre-candidate in Computer Science and Engineering, University of Michigan, 2021 - 
+* Ph.D candidate in Computer Science and Engineering, University of Michigan, 2023 - 
