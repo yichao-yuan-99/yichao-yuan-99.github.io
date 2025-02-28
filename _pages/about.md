@@ -18,7 +18,8 @@ On the systems side, I develop high-performance GPU-accelerated solutions.
 
 Ongoing and past research
 ======
-Currently, I am working on resolving I/O bottleneck for GPU-based database workloads.
+My recent research focuses on resolving I/O bottleneck for GPU-based database workloads.
+Our work [Vortex](https://arxiv.org/abs/2502.09541) proposes to redistributed underutilized IO resources in multi-GPU systems to improve the performance of database workloads, and it was accepted to VLDB 2025.
 
 In the past, I worked on GPU acceleration for Graph Analytics.
 My work [Everest](https://www.vldb.org/pvldb/volumes/17/paper/Everest%3A%20GPU-Accelerated%20System%20For%20Mining%20Temporal%20Motifs) was accepted to VLDB 2024. 

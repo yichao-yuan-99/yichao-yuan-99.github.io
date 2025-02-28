@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-[Full CV](https://yichao-yuan-99.github.io/files/YichaoYuan-CV-09-11-2024.pdf)
+[Full CV](https://yichao-yuan-99.github.io/files/YichaoYuan-CV-02-28-2025.pdf)
 
 Education
 ======
