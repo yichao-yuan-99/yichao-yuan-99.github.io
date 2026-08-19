@@ -25,13 +25,16 @@ export const validateContent = (content) => {
   ['name', 'firstName', 'initials', 'url', 'email', 'location', 'github', 'scholar', 'linkedin', 'cvSource', 'lastUpdated'].forEach((field) => {
     requireString(content.site[field], `site.${field}`);
   });
-  ['title', 'description', 'socialDescription', 'eyebrow', 'greeting', 'introduction', 'affiliation', 'footerTagline'].forEach((field) => {
+  assert(content.site.advisor && typeof content.site.advisor === 'object', '"site.advisor" must be an object.');
+  ['name', 'url'].forEach((field) => requireString(content.site.advisor[field], `site.advisor.${field}`));
+  requireString(content.site.undergraduateInstitution, 'site.undergraduateInstitution');
+  ['title', 'description', 'socialDescription', 'eyebrow', 'greeting', 'introduction', 'studentStatus', 'undergraduatePrefix', 'venues', 'affiliation', 'footerTagline'].forEach((field) => {
     requireString(content.home[field], `home.${field}`);
   });
   assert(content.home.about && typeof content.home.about === 'object', '"home.about" must be an object.');
-  requireString(content.home.about.heading, 'home.about.heading');
-  assert(Array.isArray(content.home.about.paragraphs) && content.home.about.paragraphs.length > 0, '"home.about.paragraphs" must be a non-empty array.');
-  content.home.about.paragraphs.forEach((paragraph, index) => requireString(paragraph, `home.about.paragraphs[${index}]`));
+  ['heading', 'currentWork', 'previousWork', 'educationBeforeAdvisor', 'educationAfterAdvisor'].forEach((field) => {
+    requireString(content.home.about[field], `home.about.${field}`);
+  });
   ['description', 'title'].forEach((field) => requireString(content.cv[field], `cv.${field}`));
 
   requireCollection(content, 'education', ['institution', 'degree', 'homeDates', 'homeMeta', 'cvDates']);

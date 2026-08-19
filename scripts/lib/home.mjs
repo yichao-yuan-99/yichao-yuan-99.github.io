@@ -70,7 +70,11 @@ export const renderHome = (content) => {
         <div class="hero-copy">
           <p class="eyebrow reveal">${escapeHtml(home.eyebrow)}</p>
           <h1 class="reveal reveal-delay-1">${escapeHtml(home.greeting)} <span class="hero-name">${escapeHtml(site.firstName)}.</span></h1>
-          <p class="hero-intro reveal reveal-delay-2">${escapeHtml(home.introduction)}</p>
+          <div class="hero-intro reveal reveal-delay-2">
+            <p>${escapeHtml(home.introduction)}</p>
+            <p>${escapeHtml(home.studentStatus)} <a href="${escapeHtml(site.advisor.url)}" target="_blank" rel="noreferrer">${escapeHtml(site.advisor.name)} <span aria-hidden="true">↗</span></a>. ${escapeHtml(home.undergraduatePrefix)} ${escapeHtml(site.undergraduateInstitution)}.</p>
+            <p>${escapeHtml(home.venues)}</p>
+          </div>
           <div class="hero-actions reveal reveal-delay-3">
             <a class="button button-primary" href="#publications">View publications <span aria-hidden="true">↓</span></a>
             <a class="button button-quiet" href="cv.html">View full CV <span aria-hidden="true">↗</span></a>
@@ -90,7 +94,9 @@ export const renderHome = (content) => {
           <h2>${escapeHtml(home.about.heading)}</h2>
         </div>
         <div class="about-copy reveal reveal-delay-1">
-          ${home.about.paragraphs.map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`).join('\n          ')}
+          <p>${escapeHtml(home.about.currentWork)}</p>
+          <p>${escapeHtml(home.about.previousWork)}</p>
+          <p>${escapeHtml(home.about.educationBeforeAdvisor)} <a href="${escapeHtml(site.advisor.url)}" target="_blank" rel="noreferrer">${escapeHtml(site.advisor.name)} <span aria-hidden="true">↗</span></a>${escapeHtml(home.about.educationAfterAdvisor)}</p>
           <div class="inline-links">
             <a href="mailto:${escapeHtml(site.email)}">Email me <span aria-hidden="true">↗</span></a>
             <a href="${escapeHtml(site.scholar)}" target="_blank" rel="noreferrer">Google Scholar <span aria-hidden="true">↗</span></a>

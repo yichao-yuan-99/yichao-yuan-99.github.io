@@ -82,6 +82,10 @@ button { color: inherit; font: inherit; }
 .hero h1 { max-width: 720px; margin: 0; font: 500 clamp(28px, 3vw, 42px)/1.18 var(--sans); letter-spacing: -.025em; text-wrap: balance; }
 .hero-name { color: var(--accent); font-weight: 750; }
 .hero-intro { max-width: 650px; margin: 32px 0 0; color: var(--ink-muted); font-size: clamp(17px, 1.35vw, 20px); line-height: 1.7; }
+.hero-intro p { margin: 0; }
+.hero-intro p + p { margin-top: 14px; }
+.hero-intro a { color: var(--ink); border-bottom: 1px solid var(--accent); transition: color .2s; }
+.hero-intro a:hover { color: var(--accent); }
 .hero-actions { display: flex; flex-wrap: wrap; gap: 22px; margin-top: 38px; }
 .button { display: inline-flex; align-items: center; justify-content: center; gap: 22px; min-height: 50px; padding: 0 22px; font-size: 13px; font-weight: 700; letter-spacing: .02em; transition: transform .25s var(--ease), color .25s, background .25s, box-shadow .25s; }
 .button:hover { transform: translateY(-2px); }
@@ -107,6 +111,8 @@ button { color: inherit; font: inherit; }
 .about-copy { max-width: 760px; padding-top: 34px; }
 .about-copy p { color: var(--ink-muted); }
 .about-copy p:first-child { margin-top: 0; color: var(--ink); }
+.about-copy p a { color: var(--ink); border-bottom: 1px solid var(--accent); transition: color .2s; }
+.about-copy p a:hover { color: var(--accent); }
 .inline-links { display: flex; flex-wrap: wrap; gap: 25px; margin-top: 32px; }
 .inline-links a, .text-link { padding-bottom: 3px; border-bottom: 1px solid var(--ink); font-size: 13px; font-weight: 700; transition: color .2s, border-color .2s; }
 .inline-links a:hover, .text-link:hover { color: var(--accent); border-color: var(--accent); }

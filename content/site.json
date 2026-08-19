@@ -9,6 +9,11 @@
     "github": "https://github.com/yichao-yuan-99",
     "scholar": "https://scholar.google.com/citations?user=3ssR3hgAAAAJ&hl=en&oi=ao",
     "linkedin": "https://www.linkedin.com/in/yichao-yuan-30946b220/",
+    "advisor": {
+      "name": "Nishil Talati",
+      "url": "https://sites.google.com/site/nishiltalatipersonal/"
+    },
+    "undergraduateInstitution": "Shanghai Jiao Tong University",
     "cvSource": "https://github.com/yichao-yuan-99/Yichao_Yuan_CV",
     "lastUpdated": "August 2026"
   },
@@ -18,15 +23,17 @@
     "socialDescription": "UIUC Ph.D. student designing efficient systems and computer architectures for emerging AI.",
     "eyebrow": "AI systems · Computer architecture",
     "greeting": "I’m",
-    "introduction": "My research focuses on systems and computer architecture for LLMs and other GenAI workloads, as well as high-performance data processing. I’m a Computer Science Ph.D. student at the University of Illinois Urbana-Champaign.",
+    "introduction": "My research focuses on systems and computer architecture for LLMs and other GenAI workloads, as well as high-performance data processing.",
+    "studentStatus": "I’m a Computer Science Ph.D. student at the University of Illinois Urbana-Champaign, advised by Prof.",
+    "undergraduatePrefix": "I also hold a B.S.E. in Electrical and Computer Engineering from",
+    "venues": "My work has appeared at systems and computer architecture venues including ASPLOS, ISCA, HPCA, MICRO, VLDB, and HPDC.",
     "affiliation": "Ph.D. student at UIUC",
     "about": {
       "heading": "About me",
-      "paragraphs": [
-        "At UIUC, I work on systems and computer architecture for LLMs and other GenAI workloads.",
-        "My previous research focused on GPU-accelerated systems for large-scale data analytics and hardware–software co-design.",
-        "I began my Ph.D. at the University of Michigan and transferred to UIUC with my advisor in 2025. I also earned my M.S.E. in Electrical and Computer Engineering at Michigan."
-      ]
+      "currentWork": "At UIUC, I work on systems and computer architecture for LLMs and other GenAI workloads.",
+      "previousWork": "My previous research focused on GPU-accelerated systems for large-scale data analytics and hardware–software co-design.",
+      "educationBeforeAdvisor": "I began my Ph.D. at the University of Michigan and transferred to UIUC with my advisor, Prof.",
+      "educationAfterAdvisor": ", in 2025. I also earned my M.S.E. in Electrical and Computer Engineering at Michigan."
     },
     "footerTagline": "Built for clarity, curiosity, and the open web."
   },
