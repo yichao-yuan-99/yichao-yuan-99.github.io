@@ -1,0 +1,181 @@
+{
+  "site": {
+    "name": "Yichao Yuan",
+    "firstName": "Yichao",
+    "initials": "YY",
+    "url": "https://yichao-yuan-99.github.io/",
+    "email": "yichaoy2@illinois.edu",
+    "location": "Champaign, Illinois",
+    "github": "https://github.com/yichao-yuan-99",
+    "scholar": "https://scholar.google.com/citations?user=3ssR3hgAAAAJ&hl=en&oi=ao",
+    "linkedin": "https://www.linkedin.com/in/yichao-yuan-30946b220/",
+    "cvSource": "https://github.com/yichao-yuan-99/Yichao_Yuan_CV",
+    "lastUpdated": "August 2026"
+  },
+  "home": {
+    "title": "Yichao Yuan — Computer Systems Researcher",
+    "description": "Yichao Yuan is a Computer Science Ph.D. student at UIUC researching efficient AI systems and computer architecture, with a background in GPU-accelerated data systems.",
+    "socialDescription": "UIUC Ph.D. student designing efficient systems and computer architectures for emerging AI.",
+    "eyebrow": "AI systems · Computer architecture",
+    "greeting": "I’m",
+    "introduction": "My research focuses on systems and computer architecture for LLMs and other GenAI workloads, as well as high-performance data processing. I’m a Computer Science Ph.D. student at the University of Illinois Urbana-Champaign.",
+    "affiliation": "Ph.D. student at UIUC",
+    "about": {
+      "heading": "About me",
+      "paragraphs": [
+        "At UIUC, I work on systems and computer architecture for LLMs and other GenAI workloads.",
+        "My previous research focused on GPU-accelerated systems for large-scale data analytics and hardware–software co-design.",
+        "I began my Ph.D. at the University of Michigan and transferred to UIUC with my advisor in 2025. I also earned my M.S.E. in Electrical and Computer Engineering at Michigan."
+      ]
+    },
+    "footerTagline": "Built for clarity, curiosity, and the open web."
+  },
+  "cv": {
+    "description": "Curriculum vitae of Yichao Yuan, Computer Science Ph.D. student at UIUC.",
+    "title": "Ph.D. Student in Computer Science · University of Illinois Urbana-Champaign"
+  },
+  "education": [
+    {
+      "institution": "University of Illinois Urbana-Champaign",
+      "degree": "Ph.D. Student in Computer Science",
+      "homeDates": "2025 — 2027",
+      "homeMeta": "Champaign, IL · Expected May 2027",
+      "cvDates": "Aug. 2025 — May 2027",
+      "cvMeta": "expected",
+      "note": "Focus: GPU-accelerated system design, systems and architecture for AI applications, and systems/architecture–algorithm co-design"
+    },
+    {
+      "institution": "University of Michigan",
+      "degree": "Ph.D. Student in Computer Science and Engineering",
+      "homeDates": "2023 — 2025",
+      "homeMeta": "Transferred to UIUC with advisor in August 2025 · Ann Arbor, MI",
+      "cvDates": "Aug. 2023 — Aug. 2025",
+      "cvMeta": "Ann Arbor, Michigan",
+      "details": "GPA 4.0/4.0",
+      "note": "Transferred to UIUC with advisor in August 2025"
+    },
+    {
+      "institution": "University of Michigan",
+      "degree": "M.S.E. in Electrical and Computer Engineering",
+      "homeDates": "2021 — 2023",
+      "homeMeta": "Ann Arbor, MI",
+      "cvDates": "Aug. 2021 — Apr. 2023",
+      "cvMeta": "Ann Arbor, Michigan",
+      "details": "GPA 4.0/4.0"
+    },
+    {
+      "institution": "Shanghai Jiao Tong University",
+      "degree": "B.S.E. in Electrical and Computer Engineering",
+      "homeDates": "2017 — 2021",
+      "homeMeta": "UM–SJTU Joint Institute · Shanghai, China",
+      "cvDates": "Sept. 2017 — Aug. 2021",
+      "details": "GPA 3.8/4.0",
+      "note": "University of Michigan–Shanghai Jiao Tong University Joint Institute"
+    }
+  ],
+  "experience": [
+    {
+      "organization": "Google",
+      "role": "Software Engineering Intern",
+      "homeDates": "Summer 2026",
+      "cvDates": "May — Aug. 2026",
+      "location": "San Jose, CA",
+      "description": "Investigated GPU-accelerated query processing; evaluated how kernel interface design affects operator performance; developed and tested techniques for query-level acceleration."
+    },
+    {
+      "organization": "Arm",
+      "role": "System Architecture Intern",
+      "homeDates": "Summer 2025",
+      "cvDates": "May — Aug. 2025",
+      "location": "Austin, TX",
+      "description": "Researched memory-access performance in chiplet architectures and architectural support and kernel performance for KV-cache management and attention in CPU-based LLM inference."
+    }
+  ],
+  "publications": [
+    {
+      "year": 2027,
+      "venue": "ASPLOS ’27",
+      "cvVenue": "ASPLOS 2027",
+      "title": "KAIROS: Stateful, Context-Aware Power-Efficient Agentic Inference Serving",
+      "authors": ["Yichao Yuan", "Mosharaf Chowdhury", "Nishil Talati"],
+      "url": "https://arxiv.org/abs/2604.16682",
+      "selected": true,
+      "featured": true
+    },
+    {
+      "year": 2026,
+      "venue": "IISWC ’26",
+      "cvVenue": "IISWC 2026",
+      "title": "Agentic AI Workload Characteristics",
+      "authors": ["Yichao Yuan", "Ankita Nayak", "Souvik Kundu", "Nishil Talati"],
+      "url": "https://arxiv.org/abs/2605.26297",
+      "selected": true
+    },
+    {
+      "year": 2026,
+      "venue": "HPDC ’26",
+      "cvVenue": "HPDC 2026",
+      "title": "MoE-Lens: Towards the Hardware Limit of High-Throughput MoE LLM Serving Under Resource Constraints",
+      "authors": ["Yichao Yuan", "Lin Ma", "Nishil Talati"],
+      "url": "https://arxiv.org/abs/2504.09345",
+      "selected": true
+    },
+    {
+      "year": 2026,
+      "venue": "ASPLOS ’26",
+      "cvVenue": "ASPLOS 2026",
+      "title": "MoDM: Efficient Serving for Image Generation via Mixture-of-Diffusion Models",
+      "authors": ["Yuchen Xia", "Divyam Sharma", "Yichao Yuan", "Souvik Kundu", "Nishil Talati"],
+      "url": "https://doi.org/10.1145/3760250.3762220",
+      "selected": true
+    },
+    {
+      "year": 2025,
+      "venue": "VLDB ’25",
+      "cvVenue": "VLDB 2025",
+      "title": "Vortex: Overcoming Memory Capacity Limitations in GPU-Accelerated Large-Scale Data Analytics",
+      "authors": ["Yichao Yuan", "Advait Iyer", "Lin Ma", "Nishil Talati"],
+      "url": "https://arxiv.org/abs/2502.09541",
+      "selected": true
+    },
+    {
+      "year": 2025,
+      "cvVenue": "HPCA 2025",
+      "title": "Palermo: Improving the Performance of Oblivious Memory using Protocol-Hardware Co-Design",
+      "authors": ["Haojie Ye", "Yuchen Xia", "Yixin Chen", "Kevin Yang Chen", "Yichao Yuan", "Shuwen Deng", "Baris Kasikci", "Trevor Mudge", "Nishil Talati"]
+    },
+    {
+      "year": 2024,
+      "cvVenue": "ISCA 2024",
+      "title": "QUETZAL: Vector Acceleration Framework for Modern Genome Sequence Analysis Algorithms",
+      "authors": ["Jorge Pavon", "Ivan Valdivieso", "Carlos Morales", "Carlos Hernandez", "Mert Aslan", "Joël Lindegger", "Yichao Yuan", "Roger Bagué", "Mohammed Alser", "Onur Mutlu", "Santiago Marco-Sola", "Oguz Ergin", "Nishil Talati", "Mateo Valero", "Osman Unsal", "Adrián Cristal"],
+      "url": "https://people.inf.ethz.ch/omutlu/pub/QUETZAL_isca24.pdf"
+    },
+    {
+      "year": 2024,
+      "venue": "VLDB ’24",
+      "cvVenue": "VLDB 2024",
+      "title": "Everest: GPU-Accelerated System for Mining Temporal Motifs",
+      "authors": ["Yichao Yuan", "Haojie Ye", "Sanketh Vedula", "Wynn Kaza", "Nishil Talati"],
+      "url": "https://www.vldb.org/pvldb/volumes/17/paper/Everest%3A%20GPU-Accelerated%20System%20For%20Mining%20Temporal%20Motifs",
+      "selected": true
+    },
+    {
+      "year": 2022,
+      "cvVenue": "MICRO 2022",
+      "title": "Mint: An Accelerator for Mining Temporal Motifs",
+      "authors": ["Nishil Talati", "Haojie Ye", "Sanketh Vedula", "Kevin Yang Chen", "Yixin Chen", "Dingwen Liu", "Yichao Yuan", "David Blaauw", "Alex Bronstein", "Trevor Mudge", "Ronald Dreslinski"],
+      "url": "https://ieeexplore.ieee.org/document/9923899"
+    }
+  ],
+  "service": [
+    {"role": "Review Board Member", "venue": "VLDB 2027"},
+    {"role": "Program Committee Member", "venue": "VLDB 2026 Demonstration Track"},
+    {"role": "Shadow Program Committee Member", "venue": "VLDB 2026"},
+    {"role": "Artifact Evaluation Committee Member", "venue": "ASPLOS 2025 · ISCA 2025"}
+  ],
+  "skills": [
+    {"category": "Languages", "items": "C++, C, Python, CUDA, HIP, SystemVerilog"},
+    {"category": "Tools & frameworks", "items": "NVIDIA Nsight Systems/Compute, ROCm profiler, PyTorch, OpenMP, x86/ARM vector intrinsics"}
+  ]
+}

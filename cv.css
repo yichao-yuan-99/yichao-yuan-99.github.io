@@ -1,0 +1,59 @@
+.cv-page { background: #050712; }
+.cv-page::before { display: none; }
+.cv-nav-actions { display: flex; align-items: center; gap: 20px; font-size: 12px; font-weight: 700; }
+.cv-nav-actions a { padding-bottom: 2px; border-bottom: 1px solid var(--ink); }
+.cv-nav-actions button { padding: 9px 13px; color: var(--paper); background: var(--ink); border: 1px solid var(--ink); cursor: pointer; }
+.cv-document { width: min(960px, calc(100% - 40px)); margin: 116px auto 70px; padding: 68px 74px 45px; background: var(--white); box-shadow: 0 20px 60px rgba(0,0,0,.5); }
+.cv-heading { display: grid; grid-template-columns: 1fr auto; gap: 45px; padding-bottom: 34px; border-bottom: 2px solid var(--ink); }
+.cv-kicker { margin: 0 0 6px; color: var(--accent); font-size: 10px; font-weight: 800; letter-spacing: .17em; text-transform: uppercase; }
+.cv-heading h1 { margin: 0; font: 400 51px/1 var(--serif); letter-spacing: -.04em; }
+.cv-title { margin: 12px 0 0; color: var(--ink-muted); font-size: 13px; }
+.cv-heading address { display: grid; align-content: end; justify-items: end; gap: 2px; color: var(--ink-muted); font-size: 10px; font-style: normal; }
+.cv-heading address a { color: var(--ink); }
+.cv-section { padding: 31px 0 4px; border-bottom: 1px solid var(--line); }
+.cv-section h2 { margin: 0 0 20px; color: var(--accent); font-size: 11px; font-weight: 800; letter-spacing: .16em; text-transform: uppercase; }
+.cv-entry { display: grid; grid-template-columns: 1fr 170px; gap: 30px; margin-bottom: 23px; }
+.cv-entry-main h3 { margin: 0; font: 600 16px/1.35 var(--serif); }
+.cv-entry-main p { margin: 3px 0; font-size: 11px; line-height: 1.55; }
+.cv-entry-main .cv-note { color: var(--ink-muted); }
+.cv-entry-meta { color: var(--ink-muted); font-size: 10px; font-weight: 700; text-align: right; }
+.cv-entry-meta span { display: block; font-weight: 500; }
+.cv-publications { margin: 0 0 16px; padding: 0; list-style: none; }
+.cv-publications li { position: relative; display: grid; grid-template-columns: 1fr auto; gap: 18px; padding: 0 0 14px 20px; font: 11px/1.55 var(--serif); }
+.cv-publications li::before { content: '•'; position: absolute; left: 2px; top: -1px; color: var(--accent); font: 700 12px var(--sans); }
+.cv-publications a { align-self: start; display: grid; place-items: center; width: 23px; height: 23px; color: var(--accent); border: 1px solid var(--line); border-radius: 50%; transition: color .2s, background .2s, border-color .2s, transform .2s; }
+.cv-publications a:hover { color: var(--paper); background: var(--accent); border-color: var(--accent); transform: translate(1px, -1px); }
+.cv-publications a svg { width: 12px; height: 12px; fill: none; stroke: currentColor; stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
+.cv-simple-grid { display: grid; grid-template-columns: 1fr 1fr; column-gap: 35px; }
+.cv-simple-grid p, .cv-skills p { display: flex; justify-content: space-between; gap: 20px; margin: 0 0 13px; font-size: 10px; }
+.cv-simple-grid span, .cv-skills span { color: var(--ink-muted); text-align: right; }
+.cv-skills strong { flex: 0 0 135px; }
+.cv-source-note { display: flex; justify-content: space-between; gap: 30px; padding-top: 24px; color: var(--ink-muted); font-size: 9px; }
+.cv-source-note p { margin: 0; }.cv-source-note a { color: var(--accent); }
+
+@media (max-width: 720px) {
+  .cv-nav-actions button { display: none; }
+  .cv-document { width: 100%; margin: 88px 0 0; padding: 40px 22px; box-shadow: none; }
+  .cv-heading { grid-template-columns: 1fr; gap: 20px; }
+  .cv-heading address { justify-items: start; }
+  .cv-entry { grid-template-columns: 1fr; gap: 5px; }
+  .cv-entry-meta { grid-row: 1; text-align: left; }
+  .cv-simple-grid { grid-template-columns: 1fr; }
+  .cv-publications li { grid-template-columns: 1fr; gap: 5px; }
+  .cv-source-note { flex-direction: column; gap: 5px; }
+}
+
+@media print {
+  @page { size: letter; margin: .55in .6in; }
+  .site-header { display: none !important; }
+  .cv-page { --ink: #000; --ink-muted: #333; --accent: #000; --line: rgba(0,0,0,.2); --white: #fff; color: #000; background: #fff; }
+  .cv-document { width: auto; margin: 0; padding: 0; background: #fff; box-shadow: none; }
+  .cv-heading { padding-bottom: 20px; }
+  .cv-heading h1 { font-size: 35px; }
+  .cv-section { padding-top: 20px; break-inside: avoid; }
+  .cv-entry { margin-bottom: 14px; }
+  .cv-publications li { padding-bottom: 9px; }
+  .cv-publications a { color: #000; border-color: #000; }
+  .cv-source-note { padding-top: 16px; }
+  a { text-decoration: none; }
+}
